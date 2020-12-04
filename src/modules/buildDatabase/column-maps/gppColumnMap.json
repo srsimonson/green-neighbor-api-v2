@@ -1,0 +1,218 @@
+{
+  "sheetTitle": "GPP Details",
+  "dbTableName": "gpp_details",
+  "columns": {
+    "EIAID": {
+      "name": "eiaid",
+      "type": "INTEGER"
+    },
+    "Utility Name": {
+      "name": "utility_name",
+      "type": "TEXT"
+      },
+    "State": {
+      "name": "state",
+      "type": "TEXT"
+    },
+    "eiaSTATE": {
+      "name": "eia_state",
+      "type": "TEXT"
+    },
+    "ProgramID": {
+      "name": "program_id",
+      "type": "TEXT"
+    },
+    "Program Name": {
+      "name": "program_name",
+      "type": "TEXT"
+    },
+    "Wind": {
+      "name": "wind",
+      "type": "REAL"
+    },
+    "Solar": {
+      "name": "solar",
+      "type": "REAL"
+    },
+    "Bio": {
+      "name": "bio",
+      "type": "REAL"
+    },
+    "Hydro": {
+      "name": "hydro",
+      "type": "REAL"
+    },
+    "Geo": {
+      "name": "geo",
+      "type": "REAL"
+    },
+    "Other": {
+      "name": "other",
+      "type": "REAL"
+    },
+    "Cost (c/kwh)": {
+      "name": "cost_kwh",
+      "type": "REAL"
+    },
+    "Net Cost (c/kwh)": {
+      "name": "net_cost_kwh",
+      "type": "REAL"
+    },
+    "Cost Range (c/kwh)": {
+      "name": "cost_range_kwh",
+      "type": "TEXT"
+    },
+    "Credit (Y/N)": {
+      "name": "credit_yn",
+      "type": "TEXT"
+    },
+    "Credit (c/kwh)": {
+      "name": "credit_kwh",
+      "type": "TEXT"
+    },
+    "Blocks Available": {
+      "name": "blocks_available",
+      "type": "TEXT"
+    },
+    "Block Size (kWh)": {
+      "name": "block_size_kwh",
+      "type": "TEXT"
+    },
+    "Block Cost ($)": {
+      "name": "block_cost",
+      "type": "REAL"
+    },
+    "Percentage Options": {
+      "name": "percentage_options",
+      "type": "TEXT"
+    },
+    "Percentage Range": {
+      "name": "percentage_range",
+      "type": "TEXT"
+    },
+    "Contract Lengths": {
+      "name": "contract_lengths",
+      "type": "TEXT"
+    },
+    "Monthly Minimum": {
+      "name": "monthly_minimum",
+      "type": "TEXT"
+    },
+    "Termination Fee (Y/N)": {
+      "name": "termination_fee_yn",
+      "type": "TEXT"
+    },
+    "Termination Cost": {
+      "name": "termination_cost",
+      "type": "TEXT"
+    },
+    "Green-e": {
+      "name": "green_e",
+      "type": "TEXT"
+    },
+    "RECs Retired?": {
+      "name": "recs_retired",
+      "type": "TEXT"
+    },
+    "Revenue Neutral?": {
+      "name": "revenue_neutral",
+      "type": "TEXT"
+    },
+    "Retail": {
+      "name": "retail",
+      "type": "TEXT"
+    },
+    "Waitlist (Y/N)": {
+      "name": "waitlist_yn",
+      "type": "TEXT"
+    },
+    "Rating (TBD for now)": {
+      "name": "rating",
+      "type": "TEXT"
+    },
+    "Link to Sign-up Form": {
+      "name": "sign_up_link_title",
+      "type": "TEXT"
+    },
+    "sign-up link": {
+      "name": "sign_up_link_url",
+      "type": "TEXT"
+    },
+    "Step 1": {
+      "name": "step_1",
+      "type": "TEXT"
+    },
+    "Step 2": {
+      "name": "step_2",
+      "type": "TEXT"
+    },
+    "Step3": {
+      "name": "step_3",
+      "type": "TEXT"
+    },
+    "Step 4": {
+      "name": "step_4",
+      "type": "TEXT"
+    },
+    "Step 5": {
+      "name": "step_5",
+      "type": "TEXT"
+    },
+    "Link to FAQ's": {
+      "name": "faq_link",
+      "type": "TEXT"
+    },
+    "Special Notes": {
+      "name": "special_notes",
+      "type": "TEXT"
+    },
+    "sign in required?": {
+      "name": "sign_in_required",
+      "type": "TEXT"
+    },
+    "account name required?": {
+      "name": "account_name_required",
+      "type": "TEXT"
+    },
+    "account number?": {
+      "name": "account_number",
+      "type": "TEXT"
+    },
+    "Address?": {
+      "name": "address",
+      "type": "TEXT"
+    },
+    "Enrollment choices?": {
+      "name": "enrollment_choices",
+      "type": "TEXT"
+    },
+    "must be prINTEGERed/mailed?": {
+      "name": "must_be_mailed",
+      "type": "TEXT"
+    },
+    "Email": {
+      "name": "email",
+      "type": "TEXT"
+    },
+    "Contact URL": {
+      "name": "contact_url",
+      "type": "TEXT"
+    },
+    "Phone": {
+      "name": "phone",
+      "type": "TEXT"
+    },
+    "Date Updated": {
+      "name": "date_updated",
+      "type": "TEXT"
+    },
+    "Notes": {
+      "name": "notes",
+      "type": "TEXT"
+    },
+    "Production": {
+      "name": "production",
+      "type": "INTEGER"
+    }
+  }
+}

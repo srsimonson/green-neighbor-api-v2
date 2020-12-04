@@ -1,0 +1,22 @@
+{
+  "sheetTitle": "Utility Aliases",
+  "dbTableName": "utility_aliases",
+  "columns": {
+    "eiaID STATE": {
+      "name": "eiaid_state",
+      "type": "TEXT"
+    },
+    "Utility Name": {
+      "name": "utility_name",
+      "type": "TEXT"
+    },
+    "DBA1": {
+      "name": "alias1",
+      "type": "TEXT"
+    },
+    "DBA2": {
+      "name": "alias2",
+      "type": "TEXT"
+    }
+  }
+}

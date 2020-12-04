@@ -1,0 +1,26 @@
+{
+  "sheetTitle": "Utilities By Zip Cleaned",
+  "dbTableName": "utilities_by_zip",
+  "columns": {
+    "zip": {
+      "name": "zip",
+      "type": "TEXT"
+    },
+    "eiaid": {
+      "name": "eiaid",
+      "type": "INTEGER"
+    },
+    "Utility Name": {
+      "name": "utility_name",
+      "type": "TEXT"
+    },
+    "state": {
+      "name": "state",
+      "type": "TEXT"
+    },
+    "eiaSTATE": {
+      "name": "eia_state",
+      "type": "TEXT"
+    }
+  }
+}
