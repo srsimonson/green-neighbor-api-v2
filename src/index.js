@@ -2,7 +2,7 @@ const express = require('express');
 require('dotenv').config();
 const bodyParser = require('body-parser');
 const logger = require('./logger.js');
-const buildDatabase = require('./modules/buildDatabase');
+const buildDatabase = require('./modules/build-database');
 const selectUtilityRouter = require('./routes/SelectUtility');
 
 (async () => {

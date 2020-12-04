@@ -3,7 +3,7 @@
   "dbTableName": "utility_aliases",
   "columns": {
     "eiaID STATE": {
-      "name": "eiaid_state",
+      "name": "eia_state",
       "type": "TEXT"
     },
     "Utility Name": {
