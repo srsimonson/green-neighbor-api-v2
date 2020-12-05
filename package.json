@@ -4,6 +4,7 @@
   "description": "Green Neighbor webtool api",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.21.0",
     "better-sqlite3": "^7.1.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",

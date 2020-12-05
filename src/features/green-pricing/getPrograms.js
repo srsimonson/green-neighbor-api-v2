@@ -1,10 +1,9 @@
-const router = require('express').Router();
-const db = require('../db');
+const db = require('../../db');
 
 // object schema: {
 //   name, aliases: [], zip, eiaid, eia_state, programs: [...programs]
 // }
-router.get('/:zip', async (req, res) => {
+module.exports = async (req, res) => {
   const rows = db.prepare(`
     SELECT gpp.*,
       ua.alias1 AS utility_alias1,
@@ -40,6 +39,4 @@ router.get('/:zip', async (req, res) => {
   }
 
   res.send(utilities);
-});
-
-module.exports = router;
+};
