@@ -1,6 +1,6 @@
 {
   "sheetTitle": "GPP Details",
-  "dbTableName": "gpp_details",
+  "dbTableName": "gpp_detail",
   "columns": {
     "EIAID": {
       "name": "eiaid",

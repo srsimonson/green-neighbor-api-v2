@@ -6,10 +6,11 @@ const db = require('../../db');
 const { IS_DEV } = require('../../constants');
 const logger = require('../../logger');
 
-const checkIfDbExists = () => !!db.prepare(
+const checkIfDbExists = () => db.prepare(
   `SELECT count(*) FROM sqlite_master
-  WHERE type='table' AND name='gpp_details'`,
-).pluck().get();
+    WHERE type='table'
+      AND name IN (${columnMaps.map((t) => `'${t.dbTableName}'`).join(',')})`,
+).pluck().get() === columnMaps.length;
 
 // Currently, we generate the DB based on what exists in
 // the GNC research google sheets. These are read into a

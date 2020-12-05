@@ -1,6 +1,6 @@
 {
   "sheetTitle": "Utilities By Zip Cleaned",
-  "dbTableName": "utilities_by_zip",
+  "dbTableName": "utility",
   "columns": {
     "zip": {
       "name": "zip",

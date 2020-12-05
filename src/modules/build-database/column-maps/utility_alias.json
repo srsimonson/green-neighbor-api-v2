@@ -1,6 +1,6 @@
 {
   "sheetTitle": "Utility Aliases",
-  "dbTableName": "utility_aliases",
+  "dbTableName": "utility_alias",
   "columns": {
     "eiaID STATE": {
       "name": "eia_state",
